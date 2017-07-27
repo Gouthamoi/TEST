@@ -1,0 +1,5 @@
+---
+applications:
+ - name: watson-content-hub
+   random-route: true
+   memory: 256M
