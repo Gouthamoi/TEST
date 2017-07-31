@@ -1,0 +1,116 @@
+.loader {
+  border: 8px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 8px solid #3498db;
+  width: 50px;
+  height: 50px;
+  -webkit-animation: spin 1s linear infinite;
+  animation: spin 1s linear infinite;
+position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    display: none;
+}
+
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+ul>li::before{
+    content: '' !important;
+}
+#tagsWrap{
+    float: left;
+    margin-left: 5px;
+}
+#tagsWrap li{
+    background:#6f1a93;
+    color:#ffffff; 
+    float: left;
+    min-height: 42px;
+    padding: 8px;
+}
+#tagsshow{
+     float: left;
+    margin-left: 5px;
+  width:100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    outline: none;
+    height:42px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+}
+#tagsshow li{
+    background:#6f1a93;
+    color:#ffffff; 
+    float: left;
+    min-height: 42px;
+    padding: 8px;
+    margin:5px;
+   
+}
+#tagsshow:hover{
+    overflow:visible;
+    height: auto;
+}
+#tagclick{
+    position:absolute !important;
+}
+#dataretrive{
+    margin: 30px 0 0 10px; 
+    float: left;
+    text-align:center;
+}
+#searchBar{
+    width: 50%;
+     margin-left:25%;
+      height:30px;
+      margin-top:10px;
+}
+#upload-button{
+    background:#5596E6;
+     color:white;
+      text-align:center; 
+      width: 90%;
+}
+.removeClass{
+    cursor:pointer;
+}
+.selection{
+    display:none ;
+}
+#btnSearch{
+    position: absolute;
+     margin: 16px 0px 0px -35px;
+}
+#retriveAlldata{
+       padding: 20px;
+}
+.slick-dots li button{
+    display:none !important;
+}
+.ibm-carousel__arrows--large .ibm-carousel-next {
+    font-size: 15px !important;
+    top:45% !important;
+}
+.ibm-carousel__arrows--large .ibm-carousel-prev {
+      font-size: 15px !important;
+    left: -54px !important;
+  top:22% !important;
+}
+.ibm-carousel__arrows--large .ibm-carousel-prev:before{
+        text-indent: 0px !important;
+}
+.ibm-carousel__arrows--large .ibm-carousel-next:before{
+     text-indent: 0px !important;
+}
